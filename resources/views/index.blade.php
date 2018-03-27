@@ -52,7 +52,7 @@
                 <article class="hentry post post-standard has-post-thumbnail sticky">
 
                     <div class="post-thumb">
-                        <img src="{{$post_one->featured}}" alt="seo">
+                        {{--<img src="{{$post_one->featured}}" alt="seo">--}}
                         <div class="overlay"></div>
                         <a href="{{asset('/app/img/post1.jpg')}}" class="link-image js-zoom-image">
                             <i class="seoicon-zoom"></i>
@@ -106,7 +106,7 @@
                 <article class="hentry post post-standard has-post-thumbnail sticky">
 
                     <div class="post-thumb">
-                        <img src="{{$post_two->featured}}" alt="seo">
+                        {{--<img src="{{$post_two->featured}}" alt="seo">--}}
                         <div class="overlay"></div>
                         <a href="../public/app/img/2.png" class="link-image js-zoom-image">
                             <i class="seoicon-zoom"></i>
@@ -156,7 +156,7 @@
                 <article class="hentry post post-standard has-post-thumbnail sticky">
 
                     <div class="post-thumb">
-                        <img src="{{$post_threee->featured}}" alt="seo">
+                        {{--<img src="{{$post_threee->featured}}" alt="seo">--}}
                         <div class="overlay"></div>
                         <a href="{{asset('/app/img/3.jpg')}}" class="link-image js-zoom-image">
                             <i class="seoicon-zoom"></i>
