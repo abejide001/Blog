@@ -70,7 +70,7 @@ class PostsController extends Controller
         //give a new name to the image
         $featured_new_name=time().$featured->getClientOriginalName();
         //move the file i.e store
-        $uploaded=$featured->move('/app/img/', $featured_new_name);
+        $uploaded=$featured->move('uploads/posts', $featured_new_name);
 
 
 
@@ -137,7 +137,7 @@ class PostsController extends Controller
         if($request->hasFile('featured')){
             $featured=$request->featured;
             $featured_new_name=time().$featured->getClientOriginalName();
-          $uploaded= $featured->move('/app/img/', $featured_new_name);
+          $uploaded= $featured->move('uploads/posts', $featured_new_name);
             $post->featured=$uploaded;
         }
         $post->title=$request->input('title');
