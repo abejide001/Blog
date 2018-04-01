@@ -12,7 +12,7 @@
                                 <span class="semicircle--right"></span>
                             </button>
                         </form>
-                        <div class="sub-title">Sign up for new Seosignt content, updates, surveys & offers.</div>
+                        <div class="sub-title">Sign up for new Blog Posts.</div>
 
                     </div>
 
