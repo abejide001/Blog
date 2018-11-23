@@ -20,7 +20,7 @@
                 </div>
                 <div class="form-group">
                     <label for="Featured">Featured</label>
-                    <input type="file" name="featured" class="form-control">
+                    <input type="URL" name="featured" class="form-control">
                 </div>
                 <div class="form-group">
                     <label for="Category">Selext category</label>
